@@ -25,7 +25,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["deploy": "ng build --prod --base-href https://shanegibney.github.io/mathapp/ && angular-cli-ghpages --branch gh-pages"]
           },
           "configurations": {
             "production": {
